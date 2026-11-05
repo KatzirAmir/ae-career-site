@@ -3,15 +3,15 @@ random.seed(7)
 D=lambda s:dt.date.fromisoformat(s)
 def ds(d): return d.isoformat()
 L=[]
-L.append("""CREATE TABLE customers(customer_id INT PRIMARY KEY, name TEXT, signup_date TEXT, state TEXT, referred_by INT);
-CREATE TABLE policies(policy_id INT PRIMARY KEY, customer_id INT, product TEXT, state TEXT, effective_date TEXT, expiration_date TEXT, premium REAL, status TEXT);
-CREATE TABLE claims(claim_id INT PRIMARY KEY, policy_id INT, loss_date TEXT, report_date TEXT, status TEXT, cause TEXT, paid_amount REAL, reserve_amount REAL);
-CREATE TABLE quotes(quote_id INT PRIMARY KEY, customer_id INT, product TEXT, quote_date TEXT, quoted_premium REAL, bound INT);
-CREATE TABLE users(user_id INT PRIMARY KEY, signup_date TEXT, country TEXT, plan TEXT);
-CREATE TABLE orders(order_id INT PRIMARY KEY, user_id INT, order_date TEXT, amount REAL, status TEXT);
-CREATE TABLE events(user_id INT, event_date TEXT, event_type TEXT);
-CREATE TABLE employees(emp_id INT PRIMARY KEY, name TEXT, dept TEXT, manager_id INT, salary INT, hire_date TEXT);
-CREATE TABLE logins(user_id INT, login_date TEXT);""")
+L.append("""CREATE TABLE customers(customer_id INT PRIMARY KEY, name TEXT, signup_date DATE, state TEXT, referred_by INT);
+CREATE TABLE policies(policy_id INT PRIMARY KEY, customer_id INT, product TEXT, state TEXT, effective_date DATE, expiration_date DATE, premium NUMERIC(12,2), status TEXT);
+CREATE TABLE claims(claim_id INT PRIMARY KEY, policy_id INT, loss_date DATE, report_date DATE, status TEXT, cause TEXT, paid_amount NUMERIC(12,2), reserve_amount NUMERIC(12,2));
+CREATE TABLE quotes(quote_id INT PRIMARY KEY, customer_id INT, product TEXT, quote_date DATE, quoted_premium NUMERIC(12,2), bound BOOLEAN);
+CREATE TABLE users(user_id INT PRIMARY KEY, signup_date DATE, country TEXT, plan TEXT);
+CREATE TABLE orders(order_id INT PRIMARY KEY, user_id INT, order_date DATE, amount NUMERIC(12,2), status TEXT);
+CREATE TABLE events(user_id INT, event_date DATE, event_type TEXT);
+CREATE TABLE employees(emp_id INT PRIMARY KEY, name TEXT, dept TEXT, manager_id INT, salary INT, hire_date DATE);
+CREATE TABLE logins(user_id INT, login_date DATE);""")
 names=["Ava","Ben","Cara","Dev","Eli","Fay","Gus","Hana","Ivan","Jo","Kai","Lena"]
 states=["CA","TX","NY","FL","CA","TX","NY","CA","FL","TX","CA","NY"]
 for i,n in enumerate(names,1):
@@ -36,7 +36,7 @@ L.append("INSERT INTO claims VALUES(23,101,'2024-05-01','2024-05-02','CLOSED','W
 L.append("INSERT INTO claims VALUES(24,101,'2024-05-03','2024-05-03','OPEN','Water',0,1500.0);")
 for q in range(1,31):
     c=random.randint(1,12); d=D('2024-01-10')+dt.timedelta(days=random.randint(0,800))
-    L.append(f"INSERT INTO quotes VALUES({q},{c},'{random.choice(prods)}','{ds(d)}',{round(random.uniform(700,4000),2)},{1 if random.random()<.4 else 0});")
+    L.append(f"INSERT INTO quotes VALUES({q},{c},'{random.choice(prods)}','{ds(d)}',{round(random.uniform(700,4000),2)},{'TRUE' if random.random()<.4 else 'FALSE'});")
 countries=["US","US","UK","CA","US","DE","UK","US","CA","US","DE","US"]
 for u in range(1,13):
     L.append(f"INSERT INTO users VALUES({u},'{ds(D('2025-01-03')+dt.timedelta(days=random.randint(0,150)))}','{countries[u-1]}','{random.choice(['free','pro','team'])}');")

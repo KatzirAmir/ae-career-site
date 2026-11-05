@@ -1,0 +1,2 @@
+{ "private": true, "type": "module", "scripts": { "build": "python3 seed.py && python3 export_json.py && node build_pg.mjs" },
+  "dependencies": { "@electric-sql/pglite": "0.5.15" } }
