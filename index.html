@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Top 1% Analytics Engineer — Insurance Edition</title><link rel="stylesheet" href="style.css"></head><body>
+<header><div class="wrap bar"><a class="brand" href="#gameplan">◆ AE<span>/insurance</span></a>
+<nav><a href="#gameplan">Gameplan</a><a href="#practice">SQL Practice</a><a href="#courses">Courses</a><a href="#drills">AE Drills</a><a href="#jobs">Jobs</a><a href="#resources">Resources</a></nav></div></header>
+<section class="hero"><div class="wrap"><p class="eyebrow">Analytics Engineer · Next Insurance · SQL · Airflow · Databricks · GitHub</p>
+<h1>Become a top-1% analytics engineer <em>in insurance</em>.</h1>
+<p class="lead">A 12-month roadmap that starts with SQL interview fluency, 64 runnable SQL interview problems with spaced review, AE interview drills, courses, and a daily-updated job board for AE roles at insurers and insurtechs.</p>
+<div class="stats"><div><b id="st-sql">0</b><span>SQL problems solved</span></div><div><b id="st-due">0</b><span>due for review</span></div><div><b id="st-prog">0%</b><span>course progress</span></div><div><b id="st-jobs">–</b><span>live AE postings</span></div><div><b id="st-ins">–</b><span>insurance roles</span></div></div></div></section>
+<main class="wrap">
+<section id="gameplan"><h2>The 12-month gameplan</h2><p class="muted">Four phases. Each has milestones you can check off (saved in your browser), and one portfolio project or deliverable.</p><div id="phases" class="phases"></div>
+<h3>Operating habits for the whole year</h3><div class="grid3" id="habits"></div></section>
+<section id="practice"><h2>SQL interview practice</h2><p class="muted">64 problems (easy / medium / hard) on insurance and general business tables. Write your query, click <b>Run</b>, then <b>Check</b> to compare with the expected output. Runs in your browser (SQLite via sql.js), so use SQLite date functions (cheatsheet in Course 0). Progress and review schedule are saved in your browser.</p>
+<div class="tabs" id="ptabs"><button data-v="all" class="on">All problems</button><button data-v="review">🔁 Review queue <span id="dueN"></span></button><button data-v="flag">🚩 Flagged</button><button data-v="schema">📋 Schema &amp; sample data</button></div>
+<div class="filters" id="pfilters"><select id="ptier"><option value="">All tiers</option><option>easy</option><option>medium</option><option>hard</option></select><select id="ptopic"><option value="">All topics</option></select><select id="pstat"><option value="">Any status</option><option value="todo">Not done</option><option value="done">Done</option></select><span class="muted small" id="pcount"></span></div>
+<div class="courses"><aside id="plist"></aside><article id="pbody"><p class="muted">Loading SQL engine…</p></article></div>
+<div class="card" style="margin-top:14px"><b>Weak topics</b> <span class="muted small">(topics you marked “Forgot” most)</span><div id="weak" class="muted small"></div></div></section>
+<section id="courses"><h2>Courses</h2><p class="muted">Start with Course 0 (SQL refresher). Lessons use insurance and general business data. The insurance-domain module is now a short optional refresher at the end.</p>
+<div class="progress"><div id="pbar"></div></div><p class="muted small" id="ptext"></p>
+<div class="courses"><aside id="cnav"></aside><article id="cbody"></article></div></section>
+<section id="drills"><h2>AE interview drills</h2><p class="muted">Data modeling, dbt, Airflow, Databricks, debugging and code review, system design, and behavioral. Write your answer first, then reveal the sample answer.</p>
+<div class="tabs" id="dtabs"></div><div id="dlist" class="grid1"></div></section>
+<section id="jobs"><h2>Analytics engineering jobs</h2><p class="muted" id="jmeta"></p>
+<div class="tabs" id="jtabs"><button data-t="ins" class="on">🛡️ Insurance</button><button data-t="ae">Analytics Engineer titles</button><button data-t="all">All</button></div>
+<div class="filters"><input id="jq" placeholder="Search title, company, location…"><select id="jloc"><option value="">Any location</option><option value="remote">Remote</option><option value="us">US</option><option value="uk">UK / Europe</option></select>
+<select id="jage"><option value="0">Any date</option><option value="7">Last 7 days</option><option value="30">Last 30 days</option><option value="90">Last 90 days</option></select>
+<label class="chk"><input type="checkbox" id="jaeonly"> AE titles only</label></div>
+<div id="jlist" class="jlist"></div><p class="muted small">Refresh: <code>python3 scripts/update_jobs.py</code> (runs automatically every day at 14:00 UTC through GitHub Actions). Sources: public Greenhouse, Lever and Ashby job-board APIs. Insurers whose boards aren't on these ATSes (e.g. Next, Root, Vouch, Corgi, Hippo) won't appear — check their careers pages directly.</p></section>
+<section id="resources"><h2>Free resources</h2><div id="res" class="grid3"></div></section>
+</main><footer class="wrap muted small">Built for your growth. Progress is stored locally in your browser.</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js"></script><script src="content.js"></script><script src="problems.js"></script><script src="drills.js"></script><script src="jobs.js"></script><script src="app.js"></script><script src="practice.js"></script></body></html>
