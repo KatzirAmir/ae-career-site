@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T15:08:47+00:00",
+ "generated": "2026-11-06T15:09:02+00:00",
  "boards_found": {
   "lemonade": [
    "ashby"
@@ -57,6 +57,9 @@
   ],
   "marshmallow": [
    "ashby"
+  ],
+  "thimble": [
+   "lever"
   ],
   "harbor": [
    "ashby"
@@ -264,9 +267,20 @@
    "greenhouse"
   ]
  },
- "count": 47,
- "insurance_count": 30,
+ "count": 46,
+ "insurance_count": 29,
  "jobs": [
+  {
+   "title": "Director, Analytics Engineering",
+   "company": "Oscar Health",
+   "location": "New York, New York, United States",
+   "url": "https://oscarhealth.com/careers/jobs?gh_jid=8301400",
+   "posted": "2026-10-20",
+   "source": "Greenhouse",
+   "insurance": true,
+   "role_type": "Analytics Engineer",
+   "remote": false
+  },
   {
    "title": "Analytics Engineer",
    "company": "Shepherd",
@@ -374,17 +388,6 @@
    "posted": "2026-10-16",
    "source": "Ashby",
    "remote": false,
-   "insurance": true,
-   "role_type": "Adjacent data role"
-  },
-  {
-   "title": "Senior Data Engineer",
-   "company": "Kin",
-   "location": "Remote (United States)",
-   "url": "https://jobs.ashbyhq.com/kin/2c31ebcf-e785-44c6-91dd-147105d5f100",
-   "posted": "2026-10-14",
-   "source": "Ashby",
-   "remote": true,
    "insurance": true,
    "role_type": "Adjacent data role"
   },
@@ -585,17 +588,6 @@
    "insurance": true,
    "role_type": "Adjacent data role",
    "remote": true
-  },
-  {
-   "title": "Data Scientist II",
-   "company": "Oscar Health",
-   "location": "Tempe, Arizona, United States",
-   "url": "https://oscarhealth.com/careers/jobs?gh_jid=7594416",
-   "posted": "2026-02-06",
-   "source": "Greenhouse",
-   "insurance": true,
-   "role_type": "Adjacent data role",
-   "remote": false
   },
   {
    "title": "Staff Analytics Engineer",
