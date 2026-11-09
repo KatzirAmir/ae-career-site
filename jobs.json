@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T15:03:39+00:00",
+ "generated": "2026-11-09T15:02:48+00:00",
  "boards_found": {
   "lemonade": [
    "ashby"
@@ -96,9 +96,6 @@
   ],
   "cloverhealth": [
    "greenhouse"
-  ],
-  "sanabenefits": [
-   "lever"
   ],
   "airbnb": [
    "greenhouse"
@@ -235,9 +232,6 @@
   ],
   "peloton": [
    "greenhouse"
-  ],
-  "ro": [
-   "lever"
   ],
   "calm": [
    "greenhouse"
@@ -590,6 +584,17 @@
    "remote": true
   },
   {
+   "title": "Analytics Engineering Manager, FinCrime",
+   "company": "Monzo",
+   "location": "Cardiff, London or Remote (UK); London; Remote (UK)",
+   "url": "https://job-boards.greenhouse.io/monzo/jobs/8281171",
+   "posted": "2026-11-09",
+   "source": "Greenhouse",
+   "insurance": false,
+   "role_type": "Analytics Engineer",
+   "remote": true
+  },
+  {
    "title": "Staff Analytics Engineer",
    "company": "Coinbase",
    "location": "Remote - USA",
@@ -698,17 +703,6 @@
    "remote": false,
    "insurance": false,
    "role_type": "Analytics Engineer"
-  },
-  {
-   "title": "Analytics Engineer, Conversational Analytics",
-   "company": "Ro",
-   "location": "New York, NY",
-   "url": "https://jobs.lever.co/ro/3910baa9-f961-4380-ad0a-01deec07f7a2",
-   "posted": "2026-09-16",
-   "source": "Lever",
-   "insurance": false,
-   "role_type": "Analytics Engineer",
-   "remote": false
   },
   {
    "title": "Senior Product Analytics Engineer - Ads",
