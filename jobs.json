@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T15:02:48+00:00",
+ "generated": "2026-11-10T15:10:52+00:00",
  "boards_found": {
   "lemonade": [
    "ashby"
@@ -96,6 +96,9 @@
   ],
   "cloverhealth": [
    "greenhouse"
+  ],
+  "sanabenefits": [
+   "lever"
   ],
   "airbnb": [
    "greenhouse"
@@ -233,6 +236,9 @@
   "peloton": [
    "greenhouse"
   ],
+  "ro": [
+   "lever"
+  ],
   "calm": [
    "greenhouse"
   ],
@@ -261,7 +267,7 @@
    "greenhouse"
   ]
  },
- "count": 46,
+ "count": 45,
  "insurance_count": 29,
  "jobs": [
   {
@@ -430,17 +436,6 @@
    "remote": false
   },
   {
-   "title": "Data Scientist ",
-   "company": "EverQuote",
-   "location": "Cambridge, Massachusetts, United States",
-   "url": "https://careers.everquote.com/job/?gh_jid=8008555003",
-   "posted": "2026-09-30",
-   "source": "Greenhouse",
-   "insurance": true,
-   "role_type": "Adjacent data role",
-   "remote": false
-  },
-  {
    "title": "Data Engineer",
    "company": "Alan",
    "location": "Paris, France",
@@ -529,6 +524,17 @@
    "remote": false
   },
   {
+   "title": "Director, Enterprise Analytics",
+   "company": "EverQuote",
+   "location": "Cambridge, Massachusetts, United States",
+   "url": "https://careers.everquote.com/job/?gh_jid=7978759003",
+   "posted": "2026-08-28",
+   "source": "Greenhouse",
+   "insurance": true,
+   "role_type": "Adjacent data role",
+   "remote": false
+  },
+  {
    "title": "Data Analyst (Analista de Datos) - Hybrid",
    "company": "Clara ",
    "location": "Bogota / CUN / Colombia; Bogota D.C. / DC / Colombia; Mexico City / CDMX / Mexico; Sao Paulo / SP / Brazil",
@@ -581,17 +587,6 @@
    "source": "Greenhouse",
    "insurance": true,
    "role_type": "Adjacent data role",
-   "remote": true
-  },
-  {
-   "title": "Analytics Engineering Manager, FinCrime",
-   "company": "Monzo",
-   "location": "Cardiff, London or Remote (UK); London; Remote (UK)",
-   "url": "https://job-boards.greenhouse.io/monzo/jobs/8281171",
-   "posted": "2026-11-09",
-   "source": "Greenhouse",
-   "insurance": false,
-   "role_type": "Analytics Engineer",
    "remote": true
   },
   {
@@ -705,6 +700,17 @@
    "role_type": "Analytics Engineer"
   },
   {
+   "title": "Analytics Engineer, Conversational Analytics",
+   "company": "Ro",
+   "location": "New York, NY",
+   "url": "https://jobs.lever.co/ro/3910baa9-f961-4380-ad0a-01deec07f7a2",
+   "posted": "2026-09-16",
+   "source": "Lever",
+   "insurance": false,
+   "role_type": "Analytics Engineer",
+   "remote": false
+  },
+  {
    "title": "Senior Product Analytics Engineer - Ads",
    "company": "Faire",
    "location": "San Francisco, CA",
@@ -754,17 +760,6 @@
    "location": "Remote Poland",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/7813362003",
    "posted": "2026-07-28",
-   "source": "Greenhouse",
-   "insurance": false,
-   "role_type": "Analytics Engineer",
-   "remote": true
-  },
-  {
-   "title": "Staff Analytics Engineer",
-   "company": "Monzo",
-   "location": "Cardiff, London or Remote (UK)",
-   "url": "https://job-boards.greenhouse.io/monzo/jobs/8013699",
-   "posted": "2026-06-24",
    "source": "Greenhouse",
    "insurance": false,
    "role_type": "Analytics Engineer",
