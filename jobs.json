@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T15:10:52+00:00",
+ "generated": "2026-11-11T14:52:41+00:00",
  "boards_found": {
   "lemonade": [
    "ashby"
@@ -99,6 +99,9 @@
   ],
   "sanabenefits": [
    "lever"
+  ],
+  "anglehealth": [
+   "ashby"
   ],
   "airbnb": [
    "greenhouse"
@@ -267,8 +270,8 @@
    "greenhouse"
   ]
  },
- "count": 45,
- "insurance_count": 29,
+ "count": 46,
+ "insurance_count": 30,
  "jobs": [
   {
    "title": "Director, Analytics Engineering",
@@ -480,7 +483,7 @@
    "remote": false
   },
   {
-   "title": "Senior Data Engineer",
+   "title": "Data Engineer",
    "company": "Ethos Life",
    "location": "Bangalore, India",
    "url": "https://job-boards.greenhouse.io/ethoslife/jobs/8815211002",
@@ -573,6 +576,17 @@
    "location": "Remote US",
    "url": "https://job-boards.greenhouse.io/ethoslife/jobs/8561431002",
    "posted": "2026-05-22",
+   "source": "Greenhouse",
+   "insurance": true,
+   "role_type": "Adjacent data role",
+   "remote": true
+  },
+  {
+   "title": "Senior Data Engineer",
+   "company": "Sixfold",
+   "location": "Remote",
+   "url": "https://job-boards.greenhouse.io/sixfold/jobs/5225695008",
+   "posted": "2026-05-19",
    "source": "Greenhouse",
    "insurance": true,
    "role_type": "Adjacent data role",
