@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T14:52:41+00:00",
+ "generated": "2026-11-12T14:53:41+00:00",
  "boards_found": {
   "lemonade": [
    "ashby"
@@ -270,7 +270,7 @@
    "greenhouse"
   ]
  },
- "count": 46,
+ "count": 47,
  "insurance_count": 30,
  "jobs": [
   {
@@ -601,6 +601,17 @@
    "source": "Greenhouse",
    "insurance": true,
    "role_type": "Adjacent data role",
+   "remote": true
+  },
+  {
+   "title": "Analytics Engineering Manager, FinCrime",
+   "company": "Monzo",
+   "location": "Cardiff, London or Remote (UK); London; Remote (UK)",
+   "url": "https://job-boards.greenhouse.io/monzo/jobs/8281171",
+   "posted": "2026-11-09",
+   "source": "Greenhouse",
+   "insurance": false,
+   "role_type": "Analytics Engineer",
    "remote": true
   },
   {
