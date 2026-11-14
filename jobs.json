@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T14:47:17+00:00",
+ "generated": "2026-11-14T14:47:18+00:00",
  "boards_found": {
   "lemonade": [
    "ashby"
@@ -36,6 +36,9 @@
   ],
   "oscar": [
    "greenhouse"
+  ],
+  "bestow": [
+   "ashby"
   ],
   "insurify": [
    "greenhouse"
@@ -270,7 +273,7 @@
    "greenhouse"
   ]
  },
- "count": 47,
+ "count": 45,
  "insurance_count": 30,
  "jobs": [
   {
@@ -758,17 +761,6 @@
    "remote": false
   },
   {
-   "title": "Analytics Engineer II, Full Stack (Revenue Analytics)",
-   "company": "Affirm",
-   "location": "Remote Spain",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/7916080003",
-   "posted": "2026-08-20",
-   "source": "Greenhouse",
-   "insurance": false,
-   "role_type": "Analytics Engineer",
-   "remote": true
-  },
-  {
    "title": "Analytics Engineer",
    "company": "Linear",
    "location": "North America",
@@ -778,17 +770,6 @@
    "remote": true,
    "insurance": false,
    "role_type": "Analytics Engineer"
-  },
-  {
-   "title": "Analytics Engineer II, Full Stack (Revenue Analytics)",
-   "company": "Affirm",
-   "location": "Remote Poland",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/7813362003",
-   "posted": "2026-07-28",
-   "source": "Greenhouse",
-   "insurance": false,
-   "role_type": "Analytics Engineer",
-   "remote": true
   }
  ]
 }
