@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T14:55:15+00:00",
+ "generated": "2026-11-16T14:49:02+00:00",
  "boards_found": {
   "lemonade": [
    "ashby"
@@ -273,8 +273,8 @@
    "greenhouse"
   ]
  },
- "count": 45,
- "insurance_count": 30,
+ "count": 43,
+ "insurance_count": 28,
  "jobs": [
   {
    "title": "Director, Analytics Engineering",
@@ -321,17 +321,6 @@
    "remote": true
   },
   {
-   "title": "Junior Pricing Data Scientist",
-   "company": "Marshmallow",
-   "location": "London",
-   "url": "https://jobs.ashbyhq.com/marshmallow/99c302d4-2772-4e23-bc03-55bfea905f66",
-   "posted": "2026-11-02",
-   "source": "Ashby",
-   "remote": true,
-   "insurance": true,
-   "role_type": "Adjacent data role"
-  },
-  {
    "title": "Staff Data Engineer",
    "company": "Clara ",
    "location": "Mexico City / CMX / Mexico",
@@ -341,17 +330,6 @@
    "insurance": true,
    "role_type": "Adjacent data role",
    "remote": false
-  },
-  {
-   "title": "Pricing Data Scientist",
-   "company": "Marshmallow",
-   "location": "London",
-   "url": "https://jobs.ashbyhq.com/marshmallow/086f8b22-5205-43b5-8b2a-75b0ad9fa13e",
-   "posted": "2026-10-27",
-   "source": "Ashby",
-   "remote": true,
-   "insurance": true,
-   "role_type": "Adjacent data role"
   },
   {
    "title": "Portfolio analytics and forecasts actuary",
