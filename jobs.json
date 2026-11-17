@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T14:49:02+00:00",
+ "generated": "2026-11-17T14:49:38+00:00",
  "boards_found": {
   "lemonade": [
    "ashby"
@@ -310,6 +310,28 @@
    "remote": false
   },
   {
+   "title": "Senior Data Engineer",
+   "company": "Kin",
+   "location": "Remote (United States)",
+   "url": "https://jobs.ashbyhq.com/kin/2c31ebcf-e785-44c6-91dd-147105d5f100",
+   "posted": "2026-11-17",
+   "source": "Ashby",
+   "remote": true,
+   "insurance": true,
+   "role_type": "Adjacent data role"
+  },
+  {
+   "title": "Senior Analyst, Attribute Analytics (Imagery & Property Data)",
+   "company": "Kin",
+   "location": "Remote (United States)",
+   "url": "https://jobs.ashbyhq.com/kin/c890833a-b6b2-40d2-a028-177efbb46efa",
+   "posted": "2026-11-16",
+   "source": "Ashby",
+   "remote": true,
+   "insurance": true,
+   "role_type": "Adjacent data role"
+  },
+  {
    "title": "Staff Data Scientist",
    "company": "Ethos Life",
    "location": "Remote US",
@@ -381,28 +403,6 @@
    "location": "London",
    "url": "https://jobs.ashbyhq.com/marshmallow/c316bf98-6f62-43be-914b-b96f486e08ce",
    "posted": "2026-10-09",
-   "source": "Ashby",
-   "remote": true,
-   "insurance": true,
-   "role_type": "Adjacent data role"
-  },
-  {
-   "title": "Principal Data Scientist",
-   "company": "Marshmallow",
-   "location": "London",
-   "url": "https://jobs.ashbyhq.com/marshmallow/9c4c710f-6e8a-4081-84ad-325d58832e3b",
-   "posted": "2026-10-06",
-   "source": "Ashby",
-   "remote": true,
-   "insurance": true,
-   "role_type": "Adjacent data role"
-  },
-  {
-   "title": "Staff Data Scientist",
-   "company": "Marshmallow",
-   "location": "London",
-   "url": "https://jobs.ashbyhq.com/marshmallow/ecb457b5-1773-496c-a8b5-fabec42759e2",
-   "posted": "2026-10-06",
    "source": "Ashby",
    "remote": true,
    "insurance": true,
@@ -585,11 +585,11 @@
    "remote": true
   },
   {
-   "title": "Analytics Engineering Manager, FinCrime",
-   "company": "Monzo",
-   "location": "Cardiff, London or Remote (UK); London; Remote (UK)",
-   "url": "https://job-boards.greenhouse.io/monzo/jobs/8281171",
-   "posted": "2026-11-09",
+   "title": "Senior Analytics Engineer",
+   "company": "Coinbase",
+   "location": "Remote - USA",
+   "url": "https://www.coinbase.com/careers/positions/8394402?gh_jid=8394402",
+   "posted": "2026-11-16",
    "source": "Greenhouse",
    "insurance": false,
    "role_type": "Analytics Engineer",
