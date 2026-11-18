@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T14:49:38+00:00",
+ "generated": "2026-11-18T14:55:20+00:00",
  "boards_found": {
   "lemonade": [
    "ashby"
@@ -273,7 +273,7 @@
    "greenhouse"
   ]
  },
- "count": 43,
+ "count": 42,
  "insurance_count": 28,
  "jobs": [
   {
@@ -582,17 +582,6 @@
    "source": "Greenhouse",
    "insurance": true,
    "role_type": "Adjacent data role",
-   "remote": true
-  },
-  {
-   "title": "Senior Analytics Engineer",
-   "company": "Coinbase",
-   "location": "Remote - USA",
-   "url": "https://www.coinbase.com/careers/positions/8394402?gh_jid=8394402",
-   "posted": "2026-11-16",
-   "source": "Greenhouse",
-   "insurance": false,
-   "role_type": "Analytics Engineer",
    "remote": true
   },
   {
