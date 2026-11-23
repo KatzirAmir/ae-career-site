@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T14:54:11+00:00",
+ "generated": "2026-11-23T14:52:47+00:00",
  "boards_found": {
   "lemonade": [
    "ashby"
@@ -20,9 +20,6 @@
    "ashby"
   ],
   "pieinsurance": [
-   "greenhouse"
-  ],
-  "cowbellcyber": [
    "greenhouse"
   ],
   "ethos": [
@@ -141,9 +138,6 @@
    "greenhouse"
   ],
   "affirm": [
-   "greenhouse"
-  ],
-  "instacart": [
    "greenhouse"
   ],
   "lyft": [
