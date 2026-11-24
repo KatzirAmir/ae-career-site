@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T14:52:47+00:00",
+ "generated": "2026-11-24T14:50:12+00:00",
  "boards_found": {
   "lemonade": [
    "ashby"
@@ -20,6 +20,9 @@
    "ashby"
   ],
   "pieinsurance": [
+   "greenhouse"
+  ],
+  "cowbellcyber": [
    "greenhouse"
   ],
   "ethos": [
@@ -138,6 +141,9 @@
    "greenhouse"
   ],
   "affirm": [
+   "greenhouse"
+  ],
+  "instacart": [
    "greenhouse"
   ],
   "lyft": [
@@ -267,8 +273,8 @@
    "greenhouse"
   ]
  },
- "count": 42,
- "insurance_count": 28,
+ "count": 39,
+ "insurance_count": 27,
  "jobs": [
   {
    "title": "Director, Analytics Engineering",
@@ -546,17 +552,6 @@
    "remote": true
   },
   {
-   "title": "Senior Director, Partnerships Analytics",
-   "company": "Ethos Life",
-   "location": "Remote US",
-   "url": "https://job-boards.greenhouse.io/ethoslife/jobs/8561431002",
-   "posted": "2026-05-22",
-   "source": "Greenhouse",
-   "insurance": true,
-   "role_type": "Adjacent data role",
-   "remote": true
-  },
-  {
    "title": "Senior Data Engineer",
    "company": "Sixfold",
    "location": "Remote",
@@ -576,17 +571,6 @@
    "source": "Greenhouse",
    "insurance": true,
    "role_type": "Adjacent data role",
-   "remote": true
-  },
-  {
-   "title": "Staff Analytics Engineer",
-   "company": "Coinbase",
-   "location": "Remote - USA",
-   "url": "https://www.coinbase.com/careers/positions/8047150?gh_jid=8047150",
-   "posted": "2026-10-30",
-   "source": "Greenhouse",
-   "insurance": false,
-   "role_type": "Analytics Engineer",
    "remote": true
   },
   {
@@ -720,17 +704,6 @@
    "insurance": false,
    "role_type": "Analytics Engineer",
    "remote": false
-  },
-  {
-   "title": "Analytics Engineer",
-   "company": "Linear",
-   "location": "North America",
-   "url": "https://jobs.ashbyhq.com/linear/f272fc4a-91a7-4dcf-9cb5-3600ebaf14e1",
-   "posted": "2026-08-11",
-   "source": "Ashby",
-   "remote": true,
-   "insurance": false,
-   "role_type": "Analytics Engineer"
   }
  ]
 }
