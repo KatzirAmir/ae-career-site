@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T14:50:12+00:00",
+ "generated": "2026-11-25T14:45:41+00:00",
  "boards_found": {
   "lemonade": [
    "ashby"
@@ -20,6 +20,9 @@
    "ashby"
   ],
   "pieinsurance": [
+   "greenhouse"
+  ],
+  "atbay": [
    "greenhouse"
   ],
   "cowbellcyber": [
@@ -574,6 +577,17 @@
    "remote": true
   },
   {
+   "title": "Analytics Engineer",
+   "company": "Stripe",
+   "location": "New York",
+   "url": "https://stripe.com/jobs/search?gh_jid=8415333",
+   "posted": "2026-11-24",
+   "source": "Greenhouse",
+   "insurance": false,
+   "role_type": "Analytics Engineer",
+   "remote": false
+  },
+  {
    "title": "Sr. Manager, Analytics Engineering",
    "company": "Betterment",
    "location": "Betterment HQ - New York City",
@@ -623,17 +637,6 @@
    "location": "Remote, Canada; Remote, United States",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8883003002",
    "posted": "2026-10-13",
-   "source": "Greenhouse",
-   "insurance": false,
-   "role_type": "Analytics Engineer",
-   "remote": true
-  },
-  {
-   "title": "Senior Analytics Engineer",
-   "company": "Mercury",
-   "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
-   "url": "https://job-boards.greenhouse.io/mercury/jobs/6217794004",
-   "posted": "2026-10-05",
    "source": "Greenhouse",
    "insurance": false,
    "role_type": "Analytics Engineer",
